@@ -17,26 +17,86 @@ html {
 *, *:before, *:after {
    box-sizing: inherit;
 }
-body{
+.bouton{
 
-;
+  /*background-color:#f0454c;*/
+  font-family:'Montserrat700', sans-serif;
+  color: #b9c0c6 ;
+  display: flex;
+  justify-content:space-around;
 
-   
+} 
+
+
+
+.bouton p {
+
+  border-radius: 4px;
+  background-color: #f0454c;
+  color: white;
+  margin-top:0px;
+  padding: 20px;
+  font-family:'Montserrat', sans-serif;
 }
-main{width: 950px;
-margin:0 auto;
+
+h1:before{
+  content:"";
+width:65px;
+border-top: 7px solid  #f0454c;
+position:absolute;
+margin-top:-15px;
+}
+
+h2:before{
+   content:"";
+   width: 50px;
+   border-top: 5px solid  #f0454c;
+   position:absolute;
+   margin-top:-15px;
+
+}
+
+h3:before{
+   content:"";
+   width: 50px;
+   border-top: 5px solid  #f0454c;
+   position:absolute;
+   margin-top:-15px;
+ }
+
+.titre {  
+  padding-left: 190px;
+  padding-top: 150px;
+}
+
+main{
+ 
+  width: 970px;
+margin:25px auto;
 display:block;
-align-items:baseline;
+
 justify-content:space-around;
 }
 
 nav{
+  
  display: flex;
    justify-content: flex-end;
-   align-items:baseline;
+   padding: 25px;
+
+   
 }
 
-header{background-image:url("../images/header.jpg");
+nav a{
+  font-family:'Open Sans', sans-serif;
+  text-decoration: none;
+  padding-right: 35px;
+  color: #465065;
+}
+
+
+header {
+  background-image:url("../images/header.jpg");
   height: 1000px;
   background-size: cover;
  
@@ -44,56 +104,66 @@ header{background-image:url("../images/header.jpg");
 
 .colone{
    display:flex;
+   align-content:space-around;
 
 }
 
 .portfolio{
 display: flex;
+padding-right:30px
+}
+.text{
+  margin-top:40px;
+  margin-left:50px;
 }
 
  h1{
 
    font-family:'Montserrat' , sans-serif; 
-   font-size:60px;
+   font-size:50px;
    color:#465065;
+}
+
+span{
+  display: block;
 }
 
  h3{
     font-family:'Montserrat' , sans-serif; 
-   font-size:25px;
+   font-size:27px;
    color: #465065;
  }
 
-h2{font-family:'Montserrat' , sans-serif; 
+ h2{
+
+  font-family:'Montserrat' , sans-serif; 
    font-size:35px;
    color:#465065;
-
 }
-/* 
-p{font-family:'Open Sans' , sans-serif; 
- color:#465065;}*/
 
-h3+p:first-line, h2+p:first-line {
+
+ h3+p:first-line, h2+p:first-line {
    color:#465065;
 }
 
-p{
+ p{
   color:#9aa0ab;
-  font-family:'Open Sans' , sans-serif; 
+  font-family:'Open Sans', sans-serif;
+
 }
 
+.presentation img {
+
+  border-radius: 50%;
+}
 .presentation{
    display: flex;
 }
 
+h4+p:first-line{
 
+color:#f0454c;
+}
 
-/*.OurTeam{
-   display:flex;
-
-
-
-}*/
-
-footer{height: 20px;}
+footer{height: 80px;}
 
