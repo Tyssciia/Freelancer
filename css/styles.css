@@ -18,9 +18,61 @@ html {
    box-sizing: inherit;
 }
 body{
-   font-family: montserrat:700; Sans-serif;
+
+;
+
+   
+}
+main{width: 940px;
+margin:0 auto;
+background-color: lightgrey;}
+
+nav{
+ display: flex;
+   justify-content: flex-end;
+   align-items:baseline;
 }
 
 header{
-  background-image:url(images/header.png);
+   background-image:url("../images/header.jpg");
+  height: 1000px;
+  background-size: cover;
+ 
+
+span{display: flex;
+   color: #465065;
+
 }
+
+.colone{
+   display:flex;
+
+}
+
+.portfolio{
+   display: flex;
+}
+
+ h1{display: flex;
+
+   font-family:'Montserrat:700' , sans-serif; 
+   font-size:60px;
+   color:#465065;
+}
+p{font-family:'Open Sans' , sans-serif;  }
+
+.presentation{
+   display: flex;
+}
+
+
+
+/*.OurTeam{
+   display:flex;
+
+
+
+}*/
+
+footer{height: 20px;}
+
