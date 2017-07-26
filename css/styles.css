@@ -23,9 +23,12 @@ body{
 
    
 }
-main{width: 940px;
+main{width: 950px;
 margin:0 auto;
-background-color: lightgrey;}
+display:block;
+align-items:baseline;
+justify-content:space-around;
+}
 
 nav{
  display: flex;
@@ -33,15 +36,10 @@ nav{
    align-items:baseline;
 }
 
-header{
-   background-image:url("../images/header.jpg");
+header{background-image:url("../images/header.jpg");
   height: 1000px;
   background-size: cover;
  
-
-span{display: flex;
-   color: #465065;
-
 }
 
 .colone{
@@ -50,16 +48,39 @@ span{display: flex;
 }
 
 .portfolio{
-   display: flex;
+display: flex;
 }
 
- h1{display: flex;
+ h1{
 
-   font-family:'Montserrat:700' , sans-serif; 
+   font-family:'Montserrat' , sans-serif; 
    font-size:60px;
    color:#465065;
 }
-p{font-family:'Open Sans' , sans-serif;  }
+
+ h3{
+    font-family:'Montserrat' , sans-serif; 
+   font-size:25px;
+   color: #465065;
+ }
+
+h2{font-family:'Montserrat' , sans-serif; 
+   font-size:35px;
+   color:#465065;
+
+}
+/* 
+p{font-family:'Open Sans' , sans-serif; 
+ color:#465065;}*/
+
+h3+p:first-line, h2+p:first-line {
+   color:#465065;
+}
+
+p{
+  color:#9aa0ab;
+  font-family:'Open Sans' , sans-serif; 
+}
 
 .presentation{
    display: flex;
