@@ -88,10 +88,15 @@ nav{
 }
 
 nav a{
-  font-family:'Open Sans', sans-serif;
+  margin-top: -20px;
+  font-family:'Open Sans:700', sans-serif;
   text-decoration: none;
   padding-right: 35px;
   color: #465065;
+}
+
+nav i {
+  color: #f0454c;
 }
 
 
@@ -150,6 +155,15 @@ span{
   color:#9aa0ab;
   font-family:'Open Sans', sans-serif;
 
+
+}
+.element a {
+  display: flex;
+  justify-content:flex-end;
+}
+
+.element p {
+font-size: 13px;
 }
 
 .presentation img {
@@ -165,5 +179,42 @@ h4+p:first-line{
 color:#f0454c;
 }
 
-footer{height: 80px;}
+footer{
+  margin-top:90px;
+margin-bottom: 40px;
+  border-top: 1px solid  #b9c0c6;
+  display: flex;
+   justify-content: space-between;
+   align-items:baseline;
+   padding: 25px;
+   font-size:15px;
+   
+}
+footer a {
+  font-size:20px;
+
+  color:#b9c0c6;
+
+}
+
+footer .insta{
+ color: #000 ;
+}
+
+a{
+font-family:'Open Sans', sans-serif;
+font-size: 15px;
+color: #f0454c;
+}
+
+.read a {
+   border-radius: 4px;
+  background-color: #f0454c;
+  color: white;
+  padding:22px;
+  font-family:'Montserrat', sans-serif;
+}
+.read{
+ margin-top:70px;
+}
 
